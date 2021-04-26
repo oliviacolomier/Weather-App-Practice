@@ -1,0 +1,97 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: black;
+    background-image: url("https://source.unsplash.com/1600x900/?weather, landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;
+}
+
+.card
+{
+    background: #000000d0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    height: 350px;
+    position: absolute;
+    left: 100px;
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+button
+{
+    margin: 0.5em;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: #c7c7c74b;
+    color: white;
+    cursor: pointer;
+}
+
+input
+{
+    outline: none;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 24px;
+    background-color: #c7c7c74b;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+    width: calc(100% - 100px);
+
+}
+
+.Historical
+{
+    background: #000000d0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    padding-top: 25px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    height: 350px;
+    position: absolute;
+    
+
+}
+.Historical h2
+{
+    color: white;
+}
+
+.Week
+{
+    background: #000000d0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    padding-top: 25px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    height: 350px;
+    position: absolute;
+    left: 1300px;
+    
+}
