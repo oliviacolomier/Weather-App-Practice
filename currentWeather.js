@@ -1,10 +1,12 @@
+//Zyanya Cordova - Current Weather
+
 let weather = {
     "apiKey": "86ae40824ab7b01a818378e5c0103c7b",
     fetchWeather: function (city) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
         city +
-        "&units=metric&appid=" +
+        "&units=imperial&appid=" +
         this.apiKey
     )
       .then((response) => {
@@ -21,11 +23,11 @@ let weather = {
     const { icon, description } = data.weather[0];
     const { temp, humidity } = data.main;
     const { speed } = data.wind;
-    document.querySelector(".city").innerText = "Weather in " + name;
+    document.querySelector(".city").innerText = name;
     document.querySelector(".icon").src =
       "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description").innerText = description;
-    document.querySelector(".temp").innerText = temp + "°C";
+    document.querySelector(".temp").innerText = temp + "°F";
     document.querySelector(".humidity").innerText =
       "Humidity: " + humidity + "%";
     document.querySelector(".wind").innerText =
@@ -50,4 +52,6 @@ document
       weather.search();
     }
   });
+
+weather.fetchWeather("New York City");
 

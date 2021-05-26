@@ -8,7 +8,7 @@ body
     background: black;
     background-image: url("https://source.unsplash.com/1600x900/?weather, landscape");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     font-size: 120%;
 }
 
@@ -17,20 +17,18 @@ body
     background: #000000d0;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 50px;
-    padding-top: 25px;
+    padding: 2em;
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
-    height: 350px;
-    position: absolute;
-    left: 700px;
+
     
 }
 .card h2
 {
-    padding-top: 10px;
+    color:white;
     font-size: 50px;
+  
 }
 
 .search
@@ -41,7 +39,7 @@ body
     width: 100%;
     max-width: 500px;
     position: absolute;
-    top: 100px;
+    top: 50px;
 }
 
 button
@@ -75,14 +73,12 @@ input
     background: #000000d0;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 50px;
-    padding-top: 25px;
+    padding: 2em;
     border-radius: 30px;
     width: 100%;
-    max-width: 420px;
-    height: 350px;
+    max-width: 200px;
     position: absolute;
-    left: 100px;
+    left: 200px;
     
 
 }
@@ -96,13 +92,12 @@ input
     background: #000000d0;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 50px;
+    padding: 20px;
     padding-top: 25px;
     border-radius: 30px;
     width: 100%;
-    max-width: 420px;
-    height: 350px;
+    max-width: 300px;
     position: absolute;
-    left: 1300px;
+    left: 1000px;
     
 }
