@@ -1,6 +1,6 @@
 let historicalWeather = 
 {
-    "apiKey": "a6782bf9b1756ced5547265adb31abdf",
+    "apiKey": "INSERT KEY",
     fetchHistoricalWeather: function (lat, lon, time) {
       fetch(
         "https://api.openweathermap.org/data/2.5/onecall/timemachine?lat="

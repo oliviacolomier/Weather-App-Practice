@@ -1,7 +1,7 @@
 //Valentina Molina - 7 Day Weather
 
 let Week = {
-    "apiKey": "43e1176920d7b71b1bf0b971f924c751",
+    "apiKey": "INSERT KEY",
     fetchWeek: function(lat,lon) {
         fetch(
             "https://api.openweathermap.org/data/2.5/onecall?lat=" 

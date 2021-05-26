@@ -1,7 +1,7 @@
 //Zyanya Cordova - Current Weather
 
 let weather = {
-    "apiKey": "86ae40824ab7b01a818378e5c0103c7b",
+    "apiKey": "INSERT KEY",
     fetchWeather: function (city) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +

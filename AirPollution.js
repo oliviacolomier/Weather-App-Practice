@@ -1,7 +1,7 @@
 //Sakib Ahmed - Air Pollution
 
 let airPollution = {
-    "apiKey" : "33a7bd7edfe9fd8b68a50b8c6d93a15ef" ,
+    "apiKey" : "INSERT KEY" ,
     fetchAirPollution: function (lat, lon) {
         fetch(
             "http://api.openweathermap.org/data/2.5/air_pollution?lat="
